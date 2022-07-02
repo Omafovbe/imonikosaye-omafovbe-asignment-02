@@ -34,7 +34,7 @@ function countEvenNumbers(arrayOfNumbers) {
     const evenNumbers = arrayOfNumbers.filter( num => num % 2 == 0);
     return evenNumbers.length;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
