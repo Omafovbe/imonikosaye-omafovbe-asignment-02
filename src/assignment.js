@@ -51,9 +51,21 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
+    /**
+     * Formular for conversion
+     * =========================
+     * 
+     *  °F = (°C × 9/5) + 32
+     */
+
+    const fahrenheit = arrayOfNumbers.map( num => {
+        let numFah = (num * 9 / 5) + 32;
+        return Math.trunc(numFah);
+    })
+     
+    return fahrenheit;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
