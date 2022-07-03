@@ -18,7 +18,7 @@ function sumOfNumbers(arrayOfNumbers) {
     const sumOfNumbers = arrayOfNumbers.reduce( (acc, curVal) => acc + curVal, 0)
     return sumOfNumbers;
 }
-assignment.sumOfNumbers = sumOfNumbers;
+// assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
